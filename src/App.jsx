@@ -166,7 +166,7 @@ function App() {
           <p className="text-white text-lg">
             {`Você tem ${totalTasks} items na lista`}
             {completedTasks > 0 &&
-              `e ja guardou  ${completedTasks} de (${percentage}%)`}
+              ` e ja guardou  ${completedTasks} de (${percentage}%)`}
           </p>
         </footer>
       </div>
