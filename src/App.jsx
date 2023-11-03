@@ -84,7 +84,6 @@ function App() {
 
   const totalTasks = taskList.length;
   const completedTasks = taskList.filter((task) => task.completed).length;
-  console.log(completedTasks);
   const percentage =
     totalTasks > 0 ? ((completedTasks / totalTasks) * 100).toFixed() : 0;
 
